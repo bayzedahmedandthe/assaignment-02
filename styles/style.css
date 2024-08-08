@@ -23,8 +23,30 @@
 
 body {
     max-width: 100%;
-     margin: 0px 0px;
-    
-     
+     margin: 0px 0px;background-color:black ;
  }
+ /* navbar-styles */
+ .navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 45px;
+ }
+.nav-tittle{
+  color: rgb(230, 83, 60);
+  font-weight: 700;
+  font-size: 2rem;
+  font-style: italic;
+}
+.nav-link{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.nav-links{
+  gap: 55px;
+  display: flex;
+  align-items: center;
+}
+
 
