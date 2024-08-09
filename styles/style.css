@@ -14,7 +14,7 @@
 
 
 .caveat-normal{
-  font-family: "Caveat", cursive;
+  font-family: "miama", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: italic;
@@ -87,11 +87,13 @@ background: linear-gradient(
   margin-top: 50px;
 }
 .banner-text-content{
+  
   width: 382px;
-  margin-left: 100px;
+  margin-left: 140px;
 }
 .banner-text-content-tittle {
-  font-weight: 700;
+  line-height: 120%;
+  font-weight: 900;
   font-size: 3.8rem;
 }
 .banner-text-content-description {
@@ -151,8 +153,12 @@ font-size: 0.8rem;
 .habits{
 
   text-align: center;
-margin: 100px 320px;
+margin: 100px 0;
 }
+.habit-section-description{
+  font-size: 1rem;
+}
+
 .habits-cards{
  display: flex;
 margin-left: 140px;
@@ -163,7 +169,7 @@ margin-right: 110px;
   border-radius: 100%;
 }
 .habits-section-tittle{
-  font-weight: 700;
+  font-weight: 900;
   font-size: 2.4rem;
 }
 .habit-card-section-01{
@@ -177,6 +183,60 @@ margin-right: 110px;
 }
 .habit-card-section-04{
   text-align: center;
+}
+ /* run-section styles * */
+
+.run-section{
+  background-color: #222222;
+  border-radius: 18px;
+  display: flex;
+  gap: 180px;
+  margin: 100px 160px;
+  height: 330px;
+}
+.run-section-text-content{
+  width: 1200px;
+  height: 270px;
+  margin-left: 60px;
+  margin-top: 60px;
+  /* text-align: center; */
+}
+.run-section-text-content-tittle {
+  font-weight: 800;
+  font-size: 2rem;
+}
+.run-section-btn{
+  width: 218px;
+  height: 46px;
+  border-radius: 42px;
+  border: none;
+  margin-top: 18px;
+  font-size: 1rem;
+font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.run-section-img{
+ height: 220px;
+ width: 300px;
+ border-radius: 18px;
+ margin-right: 60px;
+ margin-top: 25px;
 }
 
 
@@ -249,6 +309,12 @@ margin-right: 110px;
   }
   .banner-img{
     width: 160px;
+  }
+  .habits-cards{
+    flex-direction: column;
+  }
+  .habits{
+    flex-direction: column;
   }
   
 }
