@@ -4,7 +4,7 @@
 
 
 .work-sans-inter {
-    font-family: "Work Sans", sans-serif;
+    font-family: "inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -92,10 +92,12 @@ background: linear-gradient(
 }
 .banner-text-content-tittle {
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 3.8rem;
 }
 .banner-text-content-description {
   margin-bottom: 30px;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .btns{
   display: flex;
@@ -139,12 +141,43 @@ position: absolute;
 padding-right: 45px;
 }
 .img-btn-01-description{
-
+font-size: 0.8rem;
 }
 .banner-img{
-  margin-left: 100px;
+  margin-left: 70px;
 }
+/* habits section-styles */
 
+.habits{
+
+  text-align: center;
+margin: 100px 320px;
+}
+.habits-cards{
+ display: flex;
+margin-left: 140px;
+margin-right: 110px;
+ gap: 25px;
+}
+.habit-card-section-img{
+  border-radius: 100%;
+}
+.habits-section-tittle{
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+.habit-card-section-01{
+  text-align: center;
+}
+.habit-card-section-02{
+  text-align: center;
+}
+.habit-card-section-03{
+  text-align: center;
+}
+.habit-card-section-04{
+  text-align: center;
+}
 
 
 
