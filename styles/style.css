@@ -19,19 +19,40 @@
   font-weight: 400;
   font-style: italic;
 }
-
-
+/* shared-styles */
+.text-primary{
+  color: rgb(255, 255, 255);
+}
+.text-gray{
+  color: rgba(255, 255, 255, 0.5);
+}
+.orange-c{
+background-color: rgb(230, 83, 60);
+}
 body {
     max-width: 100%;
-     margin: 0px 0px;background-color:black ;
+   margin: 0 0;
+     background-color: black;
+
  }
+header{
+background: linear-gradient(
+  rgb(17, 17, 17),
+  
+  rgba(119, 119, 119, 0)
+);
+
+}
+  
+
  /* navbar-styles */
  .navbar{
   display: flex;
   justify-content: space-between;
   margin-left: 160px;
   margin-right: 160px;
-  margin-top: 45px;
+  padding-top: 45px;
+
  }
 .nav-tittle{
   color: rgb(230, 83, 60);
@@ -39,14 +60,162 @@ body {
   font-size: 2rem;
   font-style: italic;
 }
+.nav-link-special {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 8px 20px;
+  text-decoration: none;
+  background-color: rgb(230, 83, 60);
+  border-radius: 46px;
+  height: ;
+
+}
 .nav-link{
-  color: rgb(255, 255, 255);
+ 
   text-decoration: none;
 }
 .nav-links{
   gap: 55px;
   display: flex;
   align-items: center;
+  list-style: none;
+}
+/* banner-styles */
+.banner{
+  display: flex;
+  gap: 200px;
+  margin-top: 50px;
+}
+.banner-text-content{
+  width: 382px;
+  margin-left: 100px;
+}
+.banner-text-content-tittle {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.banner-text-content-description {
+  margin-bottom: 30px;
+}
+.btns{
+  display: flex;
+}
+.banner-text-content-btn-01{
+font-size: 1rem;
+font-weight: 600;
+border: none;
+width: 218px;
+height: 46px;
+border-radius: 38px;
+margin-right: 20px;
+
+}
+.banner-text-content-btn-02{
+font-size: 1rem;
+font-weight: 600;
+border: 1px solid rgb(255, 255, 255);
+background-color: black;
+width: 218px;
+height: 46px;
+border-radius: 38px;
+}
+.img-btn-01{
+  border: 1px solid #FFFFFF1A;
+  background-color: #FFFFFF1A;
+  height: 85px;
+  width: 190px;
+  border-radius: 12px;
+margin-left: 1000px;
+margin-top: 150px;
+position: absolute;
+/* padding-right: 60px; */
+
+}
+
+.img-btn-01-tittle{
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 0px 0px;
+padding-right: 45px;
+}
+.img-btn-01-description{
+
+}
+.banner-img{
+  margin-left: 100px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+.nav-links {
+   flex-direction: column;
+   gap: 20px;
+  
+  }
+  .navbar{
+    flex-direction: column;
+   
+  }
+  .banner{
+    flex-direction: column;
+  }
+  .img-btn-01{
+    margin-left: 350px;
+    margin-top: 750px;
+ width: 200px;
+  
+  }
+  .banner-text-content{
+    width: 300px;
+  }
+  .banner-img{
+    width: 160px;
+  }
+  
+}
