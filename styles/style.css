@@ -20,7 +20,7 @@
   font-style: italic;
 }
 
-*{border: 1px solid red;}
+/* *{border: 1px solid yellow;} */
 /* shared-styles */
 .text-primary {
   color: rgb(255, 255, 255);
@@ -86,6 +86,12 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
+  }
+.toggle-btn{
+display: none;
+color: #ffff;
+font-size: 1.5rem;
+cursor: pointer;
   }
 
   /* banner-styles */
@@ -246,11 +252,12 @@ body {
   }
 
   .run-section-img {
-    height: 220px;
+    height: 300px;
     width: 300px;
     border-radius: 18px;
     margin-right: 60px;
-    margin-top: 35px;
+    margin-top: 15px;
+    /* margin-bottom: 35px; */
   }
 
   /* supplement section styles */
@@ -258,7 +265,7 @@ body {
     display: flex;
     align-items: center;
     margin: 50px 130px;
-    height: 300px;
+    /* height: 300px; */
     border-radius: 18px;
     background-color: #222222;
   }
@@ -278,23 +285,160 @@ body {
   }
 
   .supplement-img {
-    /* height: 220px; */
+    
     width: 240px;
     margin-left: 22px;
     border-radius: 18px;
     box-shadow: 20px 20px 30px black;
   }
+  /* bmi section styles */
+  .bmi-cal-sec{
+    text-align: start;
+   margin-top: 150px;
+   margin-bottom: 150px;
+   margin-left: 380px;
+   margin-right: 250px;
+
+  }
+  .bmi-cal-sec-tittle{
+    font-weight: 900;
+    font-size: 2.4rem;
+  }
+  .bmi-cal-sec-description{
+    line-height: 22px;
+  }
+  .bmi-section{
+    background-color:  #222222;
+    display: flex;
+    gap: 150px;
+  }
+  .bmi-chart-section-tittle {
+    padding-top: 50px;
+    margin-left: 180px;
+    font-size: 1.5rem;
+  }
+  /* chart-table section styles */
+td{
+  
+padding-left: 20px;
+padding-right: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+  table{
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin-left: 180px;
+  margin-bottom: 100px;
+  
+ }
+
+ /* bmi calculation section styles */
+ .bmi-calculate-section{
+  width: 40%;
+ }
+ .bmi-calculate-section-tittle {
+  padding-top: 50px;
+ 
+  font-size: 1.5rem;
+
+ }
+
+.fr-01{
+  display: flex;
+}
+.fr-02{
+  display: flex;
+}
+.in{
+  border-radius: 6px;
+border: none;
+background: #FFFFFF1A;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 18px;
+padding-right: 80px;
+margin-right: 14px;
+margin-top: 14px;
+
+}
+.in-s{
+  border-radius: 6px;
+border: none;
+background: #FFFFFF1A;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 18px;
+padding-right: 80px;
+margin-right: 14px;
+margin-top: 14px;
+width: 450px;
+}
+.bmi-section-btn {
+  width: 218px;
+  height: 46px;
+  border-radius: 42px;
+  border: none;
+  margin-top: 34px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+/* team-section-styles */
+.team-section{
+  text-align: center;
+   
+  margin: 50px 200px;
+}
+.team-section-tittle{
+  font-weight: 800;
+font-size: 2.4rem;
+
+}
+.team-section-description {
+  width: 70%;
+ margin-left: 14%;
+}
+.team-section-images{
+ display: grid;
+ grid-template-columns: repeat(3, 300px);
+margin: 18px 200px;
+border-radius: 16px;
+
+background: #FFFFFF1A;
+}
+.team-section-image{
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+ 
+border-radius:16px;
+}
+
 
   @media screen and (max-width: 576px) {
 
     /* header section styles */
     .navbar {
-      flex-direction: column;
-      margin-left: 150px;
+      /* flex-direction: column; */
+      /* margin-left: 150px; */
+      align-items: center;
+     gap: 70px;
+     justify-content: space-between;
+     margin: 0 10px;
+      
     }
 
     .nav-links {
-      flex-direction: column;
+      /* flex-direction: column; */
+      display: none;
+
+    }
+   .toggle-btn{
+      display: block;
+    color: #ffff;
+      cursor: pointer;
+  width: 35px;
     }
 
     .banner {
@@ -379,6 +523,13 @@ body {
 
     .habits-cards {
       flex-direction: column;
+      
+    }
+    .habit-card-section-tittle{
+      text-align: center;
+    }
+    .habit-card-section-description{
+      text-align: center;
     }
 
     /* run section styles */
@@ -416,7 +567,11 @@ body {
 
     .supplement-images {
       flex-direction: column;
-
+      align-items: center;
+   gap: 10%;
+      margin-top: 20%;
+      height: none
+;
     }
 
 .supplement-text-content{
@@ -427,13 +582,8 @@ body {
   font-size: 1.4rem;
 }
 
-    .supplement-images {
-      align-items: center;
-   
-      margin-top: 20%;
 
 
-    }
 
 
 

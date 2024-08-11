@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -30,6 +30,10 @@
                     <a href="" class="nav-link text-primary">About</a>
                 </li>
             </ul>
+            <div class="toggle-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
 
         </nav>
         <div class="banner">
@@ -154,7 +158,109 @@
             </div>
 
         </div>
+        <div class="bmi-cal-sec">
+            <h3 class="bmi-cal-sec-tittle text-primary">
+                BMI Calculator
+            </h3>
+            <p class="bmi-cal-sec-description text-gray">
+                We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                gym.
+            </p>
 
+        </div>
+        <div class="bmi-section">
+            <div class="bmi-chart-section">
+                <h3 class="bmi-chart-section-tittle text-primary">
+                    BMI Calculator Chart
+                </h3>
+                <table>
+                    <thead>
+                        <td class="text-primary">
+                            <h4>BMI</h4>
+                        </td>
+                        <td class="text-primary">
+                            <h4>Weight Status</h4>
+                        </td>
+                    </thead>
+                    <tr>
+                        <td class="text-gray ">Below 18.5</td>
+                        <td class="text-gray ">Underweight</td>
+                    </tr>
+                    <tr>
+                        <td class="text-gray ">18.5 - 24.9</td>
+                        <td class="text-gray ">Healthy</td>
+                    </tr>
+                    <tr>
+                        <td class="text-gray ">25.0 - 29.9</td>
+                        <td class="text-gray ">Overweight</td>
+                    </tr>
+                    <tr>
+                        <td class="text-gray ">30.0 - and Above</td>
+                        <td class="text-gray ">Obese</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="bmi-calculate-section">
+                <h3 class="bmi-calculate-section-tittle text-primary">
+                    Calculate your BMI
+                </h3>
+                <p class="bmi-calculate-section-description text-gray">
+                    We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                    gym.
+                </p>
+                <div class="form-section">
+                    <form>
+
+                        <div class="fr-01"> <label for="">
+                                <input class="in" type="text" placeholder="Height/cm">
+                            </label>
+
+                            <label for="">
+                                <input class="in" type="text" placeholder="Weight/kg">
+                            </label>
+                        </div>
+
+
+
+                        <div class="fr-02">
+                            <label for="">
+                                <input class="in" type="text" placeholder="Age">
+                            </label>
+
+                            <label for="">
+                                <input class="in" type="text" placeholder="Sex">
+                            </label>
+                        </div>
+
+                        <label for="">
+                            <input class="in-s" type="text" placeholder="Select an activity factor">
+                        </label>
+                        <button class="bmi-section-btn text-primary orange-c">
+                            Calculate
+                        </button>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="team-section">
+            <h3 class="team-section-tittle text-primary">
+                Meet Our Team
+            </h3>
+            <p class="team-section-description text-gray">
+                We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                gym.
+            </p>
+        </div>
+        <div class="team-section-images">
+            <img class="team-section-image" src="images/01.png" alt="">
+            <img class="team-section-image" src="images/02.png" alt="">
+            <img class="team-section-image" src="images/03.png" alt="">
+            <img class="team-section-image" src="images/04.png" alt="">
+            <img class="team-section-image" src="images/trainer5.png" alt="">
+            <img class="team-section-image" src="images/06.png" alt="">
+        </div>
     </main>
     <footer>
 
