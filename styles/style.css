@@ -20,7 +20,7 @@
   font-style: italic;
 }
 
-/* *{border: 1px solid yellow;} */
+*{border: 1px solid yellow;}
 /* shared-styles */
 .text-primary {
   color: rgb(255, 255, 255);
@@ -548,14 +548,14 @@ margin-top: 100px;
     }
 
     .banner-text-content {
-      width: 100%;
+      width: 90%;
       margin-left: 0px;
 
     }
 
     .banner {
 
-      width: 100%;
+      width: 90%;
       margin: 20px 2px;
     }
 
@@ -571,7 +571,7 @@ margin-top: 100px;
     }
 
     .banner-img {
-      width: 100%;
+      width: 90%;
       margin-left: 0px;
 
     }
