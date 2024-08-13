@@ -20,7 +20,7 @@
   font-style: italic;
 }
 
-/* *{border: 1px solid yellow;} */
+*{border: 1px solid yellow;}
 /* shared-styles */
 .text-primary {
   color: rgb(255, 255, 255);
@@ -595,7 +595,7 @@ margin-top: 100px;
 
     .img-btn-01 {
       margin-left: 40%;
-      margin-top: 118%;
+      margin-top: 800px;
       width: 40%;
      
     }
@@ -649,7 +649,7 @@ margin-top: 100px;
 
     .run-section-img {
       margin-top: 0;
-      margin-left: 12%;
+      margin-left: 23px;
       margin-bottom: 30%;
     }
 
@@ -745,15 +745,16 @@ margin-bottom: 10%;
 
     /* team-section-images-styles */
     .team-section-images {
-      grid-template-columns: 100px;
-      margin-left: 10%;
-      margin-right: 8%;
+      grid-template-columns: 0px;
+     margin-left: 5px;
+      margin-right: 5px;
     }
     .team-section-image{
-      margin-left: 86%;
+      margin-left: 70px;
     }
     .team-section-image-s{
-      margin-left: 86%;
+   margin-left: 70px;
+  
     }
 
     .team-section {
@@ -773,26 +774,26 @@ margin-bottom: 10%;
 
     .footer-section-tittle {
       width: 400%;
-      margin-left: 12%;
+      margin-left: 5px;
       margin-right: 0;
 
     }
 
     .coulmn-01 {
       width: 400%;
-      margin-left: 12%;
+      margin-left: 5px;
       margin-right: 0;
     }
 
     .coulmn-02 {
       width: 400%;
-      margin-left: 12%;
+      margin-left: 5px;
       margin-right: 0;
     }
 
     .footer-last {
       width: 400%;
-      margin-left: 12%;
+      margin-left: 5px;
       margin-right: 0;
     }
 
@@ -817,12 +818,12 @@ margin-bottom: 10%;
 
     .footerlastp {
       width: 100%;
-      margin-left: 8%;
+      margin-left: 5px;
     }
 
     .hr {
       width: 90%;
-      margin-left: 8%;
+      margin-left: 5px;
     }
 
   }
