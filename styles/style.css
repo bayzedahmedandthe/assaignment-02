@@ -20,7 +20,7 @@
   font-style: italic;
 }
 
-*{border: 1px solid yellow;}
+/* *{border: 1px solid yellow;} */
 /* shared-styles */
 .text-primary {
   color: rgb(255, 255, 255);
