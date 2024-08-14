@@ -20,7 +20,7 @@
   font-style: italic;
 }
 
-/* *{border: 1px solid yellow;} */
+*{border: 1px solid yellow;}
 /* shared-styles */
 .text-primary {
   color: rgb(255, 255, 255);
@@ -651,8 +651,9 @@ margin-top: 100px;
 
     .run-section-img {
       margin-top: 0;
-      margin-left: 46px;
+      margin-left: 36px;
       margin-bottom: 30%;
+      width: 80%;
     }
 
     .habit-card-section-img {
@@ -752,10 +753,10 @@ margin-bottom: 10%;
       margin-right: 5px;
     }
     .team-section-image{
-      margin-left: 110px;
+      margin-left: 50px;
     }
     .team-section-image-s{
-   margin-left: 110px;
+   margin-left: 50px;
   
     }
 
@@ -775,32 +776,33 @@ margin-bottom: 10%;
     }
 
     .footer-section-tittle {
-      width: 400%;
+      width: 320%;
       margin-left: 5px;
       margin-right: 0;
 
     }
 
     .coulmn-01 {
-      width: 400%;
+      width: 320%;
       margin-left: 5px;
       margin-right: 0;
     }
 
     .coulmn-02 {
-      width: 400%;
+      width: 320%;
       margin-left: 5px;
       margin-right: 0;
     }
 
     .footer-last {
-      width: 400%;
+      width: 320%;
       margin-left: 5px;
       margin-right: 0;
     }
 
     .coulmn-tittle {
       margin-left: 0;
+   
     }
 
     .links {
@@ -814,7 +816,7 @@ margin-bottom: 10%;
     }
 
     .footer-last {
-      width: 400%;
+      width: 320%;
       margin-left: 0;
     }
 
