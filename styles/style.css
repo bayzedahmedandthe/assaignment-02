@@ -20,7 +20,7 @@
   font-style: italic;
 }
 
-/* *{border: 1px solid yellow;} */
+
 /* shared-styles */
 .text-primary {
   color: rgb(255, 255, 255);
@@ -96,7 +96,9 @@ body {
   .banner {
     display: flex;
     gap: 200px;
+
     margin-top: 50px;
+    width: 70%;
   }
 
   .banner-text-content {
@@ -581,12 +583,12 @@ margin-top: 100px;
 
     .banner-text-content-btn-01 {
       font-size: 0.8rem;
-      width: 30%;
+      width: 40%;
     }
 
     .banner-text-content-btn-02 {
       font-size: 0.8rem;
-      width: 30%;
+      width: 40%;
     }
 
     .btns {
@@ -597,9 +599,9 @@ margin-top: 100px;
 
     .img-btn-01 {
       margin-left: 200px;
-      margin-top: 700px;
-      width: 30%;
-     
+      margin-top: 780px;
+      width: 40%;
+
     }
 
     .img-btn-01-tittle {
@@ -660,6 +662,10 @@ margin-top: 100px;
       width: 100%;
     }
 
+    .run-section-btn {
+      width: 40%;
+    }
+
     /* supplement section styles */
 
     .supplement-images {
@@ -671,11 +677,12 @@ margin-top: 100px;
       margin-left: 10%;
       margin-right: 10%;
     }
-    .supplement-img{
-margin-left: 6%;
-margin-right: 3%;
-margin-top: 10%;
-margin-bottom: 10%;
+
+    .supplement-img {
+      margin-left: 6%;
+      margin-right: 3%;
+      margin-top: 10%;
+      margin-bottom: 10%;
     }
 
     .supplement-text-content {
@@ -729,13 +736,18 @@ margin-bottom: 10%;
       margin-left: 5%;
     }
 
+    .bmi-section-btn {
+      margin-bottom: 20px;
+      width: 50%;
+    }
+
     .in {
       width: 35%;
       m
     }
 
     .in-s {
-      width: 67%;
+      width: 61%;
     }
 
     .fr-01 {
@@ -749,15 +761,17 @@ margin-bottom: 10%;
     /* team-section-images-styles */
     .team-section-images {
       grid-template-columns: 0px;
-     margin-left: 5px;
+      margin-left: 5px;
       margin-right: 5px;
     }
-    .team-section-image{
+
+    .team-section-image {
       margin-left: 80px;
     }
-    .team-section-image-s{
-   margin-left: 80px;
-  
+
+    .team-section-image-s {
+      margin-left: 80px;
+
     }
 
     .team-section {
@@ -802,7 +816,7 @@ margin-bottom: 10%;
 
     .coulmn-tittle {
       margin-left: 0;
-   
+
     }
 
     .links {
